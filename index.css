@@ -1,7 +1,6 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
 * {
   color: #3c373b;
-  
 }
 
 h1 {
@@ -31,7 +30,7 @@ line-height: 1.4;
 p {
   font-size: 16px;
   font-family: roboto;
-  padding: 10px;
+  /* padding: 10px; */
   line-height: 1.4;
 }
 
@@ -103,6 +102,7 @@ main img {
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
+  margin-top: 20px;
 }
 
 .contact-section h2 {
