@@ -1,6 +1,7 @@
 /*======= Font rengini #3C373B yapan bir yeni bir universal selector yaratın*/
 * {
   color: #3c373b;
+  
 }
 
 h1 {
@@ -11,11 +12,7 @@ h1 {
   text-align: center;
 }
 
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2,h3,h4,h5,h6 {
   font-family: "Gaegu", cursive;
   margin-bottom: 0;
   padding: 0 10px;
@@ -53,6 +50,7 @@ img {
 
 .content-row div {
   /*======= margin propery yaratın.  Değerini 20px olarak atayın*/
+  margin: 20px;
 }
 
 .container {
@@ -82,7 +80,7 @@ img {
 
 main {
   background: whitesmoke;
-  padding: 20px;
+  padding: 25px;
 }
 
 main img {
@@ -92,8 +90,14 @@ main img {
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
   margin-top: 20px;
 */
-.aboutUs {
+.aboutUs-section {
   margin-top: 20px;
+}
+
+.features img{
+  width: 40%;
+  margin-top: 55px;
+  height: fit-content;
 }
 
 .contact-section {
